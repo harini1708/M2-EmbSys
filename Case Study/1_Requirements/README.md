@@ -4,7 +4,7 @@ This case study is regarding Digital clock with alarm using RTC(Real Time Clock)
 
 # FEATURES
 
-This digital clock contains several components like Microcontroller,LCD,Buzzer,Relay,RTC(Real time clock),Push buttons.
+This digital clock contains several components like Microcontroller,LCD,Buzzer,Relay,RTC(Real time clock),Push buttons.Microcontroller controls all the other components.In controlling,several push buttons are used .They consist of alarm set,reset button and each perform different sets of work.RTC varies the time continuous and delays
 ## LCD: 
 LCD is the output device.It displays the time,date,month and year
 ## Microcontroller:
@@ -19,8 +19,18 @@ A relay is an electrically operated switch. It consists of a set of input termin
  Provides power supply to the controller
 
 # HIGH LEVEL REQUIREMENTS
-
-
+| ID  |  Description                                      | Status     | 
+| ----|  -----------------------------------------        |----------  |
+| HLR1| LCD Diplay that displays the output               | Implemented|
+| HLR2| Real Time clock to provide precise time and date  | Implemented|
+| HLR3| Microcontroller that controls all other units     | Implemented|
+| HLR4| Power supply for controller                       | Implemented|
 
 
 # LOW LEVEL REQUIREMENTS
+| ID  |  Description                                      | Status     | 
+| ----|  -----------------------------------------        |----------  |
+| LLR1| Buzzer to generate sound as alarm rings           | Implemented|
+| LLR2| Light Emitting Diode                              | Implemented|
+| LLR3| Relay that acts as a switch                       | Implemented|  
+| LLR4| Push Buttons used to set time and alarm           | Implemented|  
