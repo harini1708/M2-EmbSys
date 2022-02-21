@@ -21,18 +21,18 @@ Provides power supply to the controller
 Keypad is used to set time or alarm
 
 # HIGH LEVEL REQUIREMENTS
-| ID  |  Description                                      | Status     | 
-| ----|  -----------------------------------------        |----------  |
-| HLR1| LCD Diplay that displays the output               | Implemented|
-| HLR2| Real Time clock to provide precise time and date  | Implemented|
-| HLR3| Microcontroller that controls all other units     | Implemented|
-| HLR4| Power supply for controller                       | Implemented|
+| ID  |  Description                                      |  
+| ----|  -----------------------------------------        |
+| HLR1| LCD Diplay that displays the output               | 
+| HLR2| Real Time clock to provide precise time and date  | 
+| HLR3| Microcontroller that controls all other units     | 
+| HLR4| Power supply for controller                       | 
 
 
 # LOW LEVEL REQUIREMENTS
-| ID  |  Description                                      | Status     | 
-| ----|  -----------------------------------------        |----------  |
-| LLR1| Buzzer to generate sound as alarm rings           | Implemented|
-| LLR2| Light Emitting Diode                              | Implemented|
-| LLR3| Relay that acts as a switch                       | Implemented|  
-| LLR4| Keypad used to set time and alarm                 | Implemented|  
+| ID  |  Description                                      |  
+| ----|  -----------------------------------------        |
+| LLR1| Buzzer to generate sound as alarm rings           | 
+| LLR2| Light Emitting Diode                              | 
+| LLR3| Relay that acts as a switch                       |   
+| LLR4| Keypad used to set time and alarm                 |  
