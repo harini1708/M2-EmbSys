@@ -15,24 +15,22 @@ Real-time clock is a clock function used by systems that measure time even when 
 Generates sound as the alarm rings
 ## Relay:
 A relay is an electrically operated switch. It consists of a set of input terminals for a single or multiple control signals, and a set of operating contact terminals.
-## Power Supply
-Provides power supply to the controller
-## Keypad
-Keypad is used to set time or alarm
+ ## Power Supply
+ Provides power supply to the controller
 
 # HIGH LEVEL REQUIREMENTS
-| ID  |  Description                                      |  
-| ----|  -----------------------------------------        |
-| HLR1| LCD Diplay that displays the output               | 
-| HLR2| Real Time clock to provide precise time and date  | 
-| HLR3| Microcontroller that controls all other units     | 
-| HLR4| Power supply for controller                       | 
+| ID  |  Description                                      | Status     | 
+| ----|  -----------------------------------------        |----------  |
+| HLR1| LCD Diplay that displays the output               | Implemented|
+| HLR2| Real Time clock to provide precise time and date  | Implemented|
+| HLR3| Microcontroller that controls all other units     | Implemented|
+| HLR4| Power supply for controller                       | Implemented|
 
 
 # LOW LEVEL REQUIREMENTS
-| ID  |  Description                                      |  
-| ----|  -----------------------------------------        |
-| LLR1| Buzzer to generate sound as alarm rings           | 
-| LLR2| Light Emitting Diode                              | 
-| LLR3| Relay that acts as a switch                       |   
-| LLR4| Keypad used to set time and alarm                 |  
+| ID  |  Description                                      | Status     | 
+| ----|  -----------------------------------------        |----------  |
+| LLR1| Buzzer to generate sound as alarm rings           | Implemented|
+| LLR2| Light Emitting Diode                              | Implemented|
+| LLR3| Relay that acts as a switch                       | Implemented|  
+| LLR4| Push Buttons used to set time and alarm           | Implemented|  
