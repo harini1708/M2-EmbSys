@@ -82,3 +82,9 @@ The sensor used in this project is Ultrasonic sensor that detects the opposite o
 
 ### Low Level Requirement
 
+| ID  |  Description                                      | Status     | 
+| ----|  -----------------------------------------        |----------  |
+|LLR1 |Power Supply (5V DC)                               |            |
+|LLR2 |Measuring angle of 30 degrees                      |            |
+|LLR3 |Trigger Input Pulse width: 10uS TTL pulse          |            |
+
