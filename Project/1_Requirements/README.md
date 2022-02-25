@@ -1,4 +1,4 @@
-## DETECTION OF OBJECTS USING ULTRASONIC SENSOR
+# DETECTION OF OBJECTS USING ULTRASONIC SENSOR
 
 ## Description
 An ultrasonic sensor is an instrument that measures the distance to an object using ultrasonic sound waves. An ultrasonic sensor uses a transducer to send and receive ultrasonic pulses that relay back information about an object's proximity. Ultrasonic sensors are used primarily as proximity sensors which means, an object passing within the preset range will be detected and generates an output signal. The sensor determines the distance to a target by measuring time lapses between the sending and receiving of the ultrasonic pulse.
@@ -18,29 +18,42 @@ Components Used:
 
 
 ## SWOT ANALYSIS
+
 Strengths:
+
 •	The distance of an obstacle can be measured using Low-cost Ultrasonic sensor
+
 •	Not highly affected by dust, dirt, or high-moisture environments, color of objects
+
 •	This sensors module includes ultrasonic transmitter,ultrasonic receiver and control circuit
+
 •	These sensors can be useful for blind people
 
 
 Weaknesses:
        
 •	Sensing accuracy can be affected by soft materials.
+
 •	Ultrasonic sensors have a limited detection range
 
 Opportunities:
+
 •	Ultrasonic sensors can be useful for making smart glasses for the blind with some added specifications.
+
 •	These can be useful in parking assistance systems in vehicles with high power ultrasonic transmitter
+
 •	 Can be used as burglar alarm with some suitable additional software for homes and offices, etc..
+
 Threats:
+
 •	Battery Backup is a major challenge
+
 •	Ultrasonic sensors must view a surface (particularly a hard level surface) opposite to get adequate sound reverberation
 
 
 
 ## 4W’s and 1H:
+
 WHAT:
 The setup consists of a microcontroller that is connected to the ultrasonic sensor and displays the measured distance in the LCD.
 
