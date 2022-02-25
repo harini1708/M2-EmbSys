@@ -74,7 +74,9 @@ The sensor used in this project is Ultrasonic sensor that detects the opposite o
 ### High Level Requirement
 
 | ID  | Description                                   | Status |
+
 |--------------------------------------------------------------|
+
 |HLR1 |Ultrasonic sensors used to detect the objects  |        |
 |HLR2 |Microcontroller that controls the entire setup |        |
 |HLR3 |Souce code used for execution of system        |        |
