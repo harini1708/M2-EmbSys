@@ -19,7 +19,7 @@ Components Used:
 
 ## SWOT ANALYSIS
 
-Strengths:
+### Strengths
 
 •	The distance of an obstacle can be measured using Low-cost Ultrasonic sensor
 
@@ -30,13 +30,13 @@ Strengths:
 •	These sensors can be useful for blind people
 
 
-Weaknesses:
+### Weaknesses
        
 •	Sensing accuracy can be affected by soft materials.
 
 •	Ultrasonic sensors have a limited detection range
 
-Opportunities:
+### Opportunities
 
 •	Ultrasonic sensors can be useful for making smart glasses for the blind with some added specifications.
 
@@ -44,7 +44,7 @@ Opportunities:
 
 •	 Can be used as burglar alarm with some suitable additional software for homes and offices, etc..
 
-Threats:
+### Threats
 
 •	Battery Backup is a major challenge
 
@@ -54,13 +54,17 @@ Threats:
 
 ## 4W’s and 1H:
 
-WHAT:
+### WHAT
 The setup consists of a microcontroller that is connected to the ultrasonic sensor and displays the measured distance in the LCD.
 
-WHEN:It can be used whenever the range (or distance) has to be detected using ultrasonic sensor
+### WHEN
+It can be used whenever the range (or distance) has to be detected using ultrasonic sensor
 
-WHERE: It is used wherever the distance has to be sensed using the ultrasonic sensor
+### WHERE 
+It is used wherever the distance has to be sensed using the ultrasonic sensor
 
-WHO: It can be used by blind people (with some additional specifications) which reduces their dependency on others.
+### WHO
+It can be used by blind people (with some additional specifications) which reduces their dependency on others.
 
-HOW: The sensor used in this project is Ultrasonic sensor that detects the opposite objects and send this information to the microcontroller and the output is generated in the LCD.
+### HOW
+The sensor used in this project is Ultrasonic sensor that detects the opposite objects and send this information to the microcontroller and the output is generated in the LCD.
