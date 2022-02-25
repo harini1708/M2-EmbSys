@@ -68,3 +68,22 @@ It can be used by blind people (with some additional specifications) which reduc
 
 ### HOW
 The sensor used in this project is Ultrasonic sensor that detects the opposite objects and send this information to the microcontroller and the output is generated in the LCD.
+
+## Details Requirements
+
+### High Level Requirement
+
+| ID  | Description                                   | Status |
+|--------------------------------------------------------------|
+|HLR1 |Ultrasonic sensors used to detect the objects  |        |
+|HLR2 |Microcontroller that controls the entire setup |        |
+|HLR3 |Souce code used for execution of system        |        |
+|HLR4 |LCD that displays the output(measured distance)|        |
+
+### Low Level Requirement
+
+| ID | Description                                    | Status |
+|------------------------------------------------------------  |                  
+|LLR2|Power Supply (5V DC)                            |        |
+|LLR3|Measuring angle of 30 degrees                   |        |
+|LLR4|rigger Input Pulse width: 10uS TTL pulse        |        |
