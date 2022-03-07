@@ -6,15 +6,15 @@ An ultrasonic sensor is an instrument that measures the distance to an object us
 ## Features
 Components Used:
 
-•	Atmega328 Microcontroller
+•	Atmega328 Microcontroller: It controls the entire setup
 
-•	HC-SR04 (Ultrasonic) sensor
+•	HC-SR04 (Ultrasonic) sensor: Used to measure the distance to an object using ultrasonic sound waves
 
-•	LCD display
+•	LCD display: Measured distance is displayed in the LCD
 
-•	Switches
+•	Switches: Used to On/off 
 
-•	Power Supply
+•	Power Supply: Provides power supply for the controller
 
 
 ## SWOT ANALYSIS
