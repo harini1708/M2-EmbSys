@@ -1,3 +1,14 @@
+/**
+ * @file main.c
+ * @author Harini
+ * @brief 
+ * @version 0.1
+ * @date 2022-03-07
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #ifndef __AVR_ATmega328P__
     #define __AVR_ATmega328P__
 #endif  
@@ -25,7 +36,7 @@
 #define led4 PC5
 #define led5 PD2
 
-#define US_ERROR		-1      // Defining two more variables two know if the ultrasonic sensor is working or not
+#define US_ERROR		-1   // Defining two more variables two know if the ultrasonic sensor is working or not
 #define	US_NO_OBSTACLE	-2
 
 int distance, previous_distance;
@@ -124,11 +135,7 @@ void lcd_command( unsigned char cmnd )
 	lcd_port |= (1<<en);
 	_delay_us(1);
 	lcd_port &= ~ (1<<en);
-	
-	// delay of 200 microseconds
-	_delay_us(200);
-	
-	// send the lower 4 bit of the data
+	_delay_us(200);// delay of 200 microseconds
 	lcd_port = (lcd_port & 0x0F) | (cmnd << 4);
 	lcd_port |= (1<<en);
 	_delay_us(1);
@@ -187,18 +194,14 @@ int main()
 		_delay_ms(100);	//Let the LCD Module start
                     
 		UltrasonicInit();
-
-
-		DDRC |= (1 << led1) | (1 << led2) | ( 1 << led3) | ( 1 << led4);    // setting all the leds as output
+        DDRC |= (1 << led1) | (1 << led2) | ( 1 << led3) | ( 1 << led4);    // setting all the leds as output
 		DDRD |= (1 << led5);                                                 // setting the fifth led as output separately since it is on another port
 	
 		while(1)
 		{
 			
 			UltrasonicTrigger();               // calling the ultrasonic sound wave generator function
-
-			//Measure the width of pulse
-			r=GetPulseWidth();            
+			r=GetPulseWidth();                 //Measure the width of pulse        
 
 			if(r==US_ERROR)                // if microcontroller doesn't get any pulse then it will set the US_ERROR variable to -1
 			
