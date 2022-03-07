@@ -73,18 +73,18 @@ The sensor used in this project is Ultrasonic sensor that detects the opposite o
 
 ### High Level Requirement
 
-| ID  |  Description                                      | Status     | 
-| ----|  -----------------------------------------        |----------  |
-|HLR1 |Ultrasonic sensors used to detect the objects      |            |
-|HLR2 |Microcontroller that controls the entire setup     |            |
-|HLR3 |Souce code used for execution of system            |            |
-|HLR4 |LCD that displays the output(measured distance)    |            |
+| ID  |  Description                                      | 
+| ----|  -----------------------------------------        |
+|HLR1 |Ultrasonic sensors used to detect the objects      | 
+|HLR2 |Microcontroller that controls the entire setup     | 
+|HLR3 |Souce code used for execution of system            |
+|HLR4 |LCD that displays the output(measured distance)    | 
 
 ### Low Level Requirement
 
-| ID  |  Description                                      | Status     | 
-| ----|  -----------------------------------------        |----------  |
-|LLR1 |Power Supply (5V DC)                               |            |
-|LLR2 |Measuring angle of 30 degrees                      |            |
-|LLR3 |Trigger Input Pulse width: 10uS TTL pulse          |            |
+| ID  |  Description                                      | 
+| ----|  -----------------------------------------        |
+|LLR1 |Power Supply (5V DC)                               |            
+|LLR2 |Measuring angle of 30 degrees                      |            
+|LLR3 |Trigger Input Pulse width: 10uS TTL pulse          |            
 
