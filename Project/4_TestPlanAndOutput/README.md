@@ -25,7 +25,7 @@
 
 3.Capture the actual output.
 
-4.Compare results and raise issues and fix the bugs.
+4.Compare results and raise issues and fix the bugs(if any).
 
 
 
