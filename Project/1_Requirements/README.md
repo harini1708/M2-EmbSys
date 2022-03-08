@@ -12,7 +12,7 @@ Components Used:
 
 •	LCD display: Measured distance is displayed in the LCD
 
-•	Switches: Used to On/off 
+•	Potentiometer: A potentiometer is a type of position sensor which is used to measure displacement in any direction.
 
 •	Power Supply: Provides power supply for the controller
 
