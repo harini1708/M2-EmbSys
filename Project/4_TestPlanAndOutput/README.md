@@ -18,5 +18,15 @@
 |LLR3 |Trigger Input Pulse width: 10uS TTL pulse          | Implemented|
 
 
+### Test plan 
+1.Capture the steps to test and verify each requirement.
+
+2.Test once the Implementation is done.
+
+3.Capture the actual output.
+
+4.Compare results and raise issues and fix the bugs.
+
+
 
 ![Simulation](https://user-images.githubusercontent.com/73392962/157223160-3952ffdc-420e-4684-80b3-f7cb6de6fab1.png)
