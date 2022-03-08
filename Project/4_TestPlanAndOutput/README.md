@@ -1,4 +1,5 @@
 
+
 ### High Level Requirement
 
 | ID  |  Description                                      | Status     |
@@ -17,3 +18,4 @@
 |LLR3 |Trigger Input Pulse width: 10uS TTL pulse          | Implemented|
 
 
+![Simulation](https://user-images.githubusercontent.com/73392962/157223160-3952ffdc-420e-4684-80b3-f7cb6de6fab1.png)
