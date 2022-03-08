@@ -88,3 +88,15 @@ The sensor used in this project is Ultrasonic sensor that detects the opposite o
 |LLR2 |Measuring angle of 30 degrees                      |            
 |LLR3 |Trigger Input Pulse width: 10uS TTL pulse          |            
 
+## Block Diagram
+
+![Blockdiagram](https://user-images.githubusercontent.com/73392962/157188453-10ba544c-0400-4bb6-a71e-689fda9b5f60.png)
+
+
+## Behavioural Diagram
+
+![Behavioral_diagram](https://user-images.githubusercontent.com/73392962/157188414-305b1068-26d8-48f4-bfd1-f7446040169f.png)
+
+
+## Conclusion
+The aim of the project was to design and implement an ultrasonic distance meter. The device can detect the target and calculate the distance of the target. The ultrasonic distance meter is a low cost device and a simple device for distance measurement. This device calculates the distance with suitable accuracy and resolution. It is a useful for non-contact measurement of distance. The device has its application in many fields such as car backing system, automation and robotics, detecting the depth of the snow, water level of the tank, production line. This device will also have its application in civil and mechanical field for precise and small measurements. For calculating the distance using this device, the target whose distance is to be measured should always be perpendicular to the plane of propagation of the ultrasonic waves. Hence the orientation of the target is a limitation of this system. The ultrasonic detection range also depends on the size and position of the target. The bigger is the target, stronger will be the reflected signal and more accurate will be the distance calculated. 
