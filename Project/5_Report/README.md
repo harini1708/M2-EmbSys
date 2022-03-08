@@ -92,6 +92,10 @@ The sensor used in this project is Ultrasonic sensor that detects the opposite o
 
 ![Blockdiagram](https://user-images.githubusercontent.com/73392962/157188453-10ba544c-0400-4bb6-a71e-689fda9b5f60.png)
 
+## Structural Diagram
+
+![Structural_diagram](https://user-images.githubusercontent.com/73392962/157217042-ad1c6403-6bb8-4a89-b324-32a642e66fb6.png)
+
 
 ## Behavioural Diagram
 
