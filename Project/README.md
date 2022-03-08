@@ -1,5 +1,4 @@
 ## DETECTION OF OBJECTS USING ULTRASONIC SENSOR
-# M2-EmbSys
 
 | Build   | CI   | Unity| Cpp_check   |  codacy | codiga score| codiga Badge|
 |:--------|:-----|---   |:------------|:--------|:------      |-----------  |
